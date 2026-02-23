@@ -1,2 +1,86 @@
-# specifications
-Canonical, implementation‑agnostic specifications for the Lattice ecosystem. Defines packet formats, schemas, envelopes, identity structures, and interoperability rules that operationalise the Lattice standards. Stewarded by the SCU Foundation.
+# Lattice Specifications
+
+The Lattice Protocol specifications define the **technical, implementation‑agnostic structures** that operationalise the Lattice standards.  
+Where the standards define the constitutional rules of identity, semantics, trust, and provenance, the specifications define the **concrete technical formats** that ensure interoperability across agents, devices, runtimes, and vendors.
+
+Specifications describe **how** the rules of the standards are implemented in practice.
+
+## Purpose of the Specifications
+
+The specifications provide:
+
+- canonical packet formats  
+- semantic and meta‑semantic schemas  
+- graph structures and node/edge definitions  
+- identity token structures and attestation metadata  
+- domain‑agnostic, transport‑agnostic encoding rules  
+- validation and error semantics  
+- interoperability guarantees  
+
+Specifications do **not** describe implementations.  
+They define the **structures that all compliant implementations MUST support**.
+
+## Available Specifications
+
+The following specifications will be published under this directory:
+
+### **LP Specification — Lattice Protocol**
+Defines the canonical structure of semantic packets, envelopes, identity bindings, and trust metadata.
+
+### **LM Specification — Lattice Meta**
+Defines meta‑semantic schemas, contextual structures, alignment metadata, and extension rules.
+
+### **LW Specification — Lattice Web**
+Defines graph schemas, node/edge structures, graph envelopes, and cross‑domain coherence metadata.
+
+### **LIT Specification — Lattice Identity Token**
+Defines identity token structure, identity metadata, attestation surfaces, and revocation metadata.
+
+### **Lattice Language Specification**
+Defines the domain‑specific language used to construct, validate, and interpret semantic packets and graph structures.
+
+## Governance
+
+All specifications are stewarded by the **SCU Foundation**, which maintains canonical versions, ensures interoperability, and governs long‑term evolution.
+
+Semantic research, schema evolution, and standards‑adjacent proposals are conducted by the **Lattice Research Institute (LRI)**.
+
+All changes MUST follow the SCU Foundation Change‑Management Charter (CMC) and Update‑Sequence Charter (USC).
+
+## Directory Structure
+
+Each specification will be published in its own subdirectory:
+
+```
+/specifications/
+  lp-spec/
+  lm-spec/
+  lw-spec/
+  lit-spec/
+  lattice-language-spec/
+```
+
+Each subdirectory will contain:
+
+- `<SPEC>-v1.0.md` — Full canonical specification  
+- `README.md` — Overview and canonical links  
+- `STATUS.md` — Status and version metadata  
+- `CHANGELOG.md` — Version history  
+- `VERSION` — Machine‑readable version file  
+- `LICENSE` — CC BY 4.0 license
+
+## Alignment with Standards
+
+Specifications MUST comply with:
+
+- **TS v1.0** — Trust, identity, safety, provenance  
+- **LP v1.0** — Semantic primitives and semantic validity  
+- **LM v1.0** — Meta‑semantic structures and contextual meaning  
+- **LW v1.0** — Graph structures and metadata  
+- **LIT v1.0** — Identity tokens and attestation primitives
+
+Specifications operationalise the standards but do not replace them.
+
+---
+
+This directory forms the **technical backbone** of the Lattice ecosystem.
