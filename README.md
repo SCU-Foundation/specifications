@@ -1,9 +1,9 @@
 # Lattice Specifications
 
-The Lattice Protocol specifications define the **technical, implementation‑agnostic structures** that operationalise the Lattice Standards.  
-Where the standards define the constitutional rules of identity, semantics, trust, context, and graph structure, the specifications define the **concrete technical formats** that ensure interoperability across agents, devices, runtimes, and vendors.
+The Lattice Protocol specifications define the technical, implementation‑agnostic structures that operationalise the Lattice Standards.  
+Where the standards define the constitutional rules of identity, semantics, trust, context, and graph structure, the specifications define the concrete technical formats that ensure interoperability across agents, devices, runtimes, and vendors.
 
-Specifications describe **how** the rules of the standards are implemented in practice.
+Specifications describe how the rules of the standards are implemented in practice.
 
 ---
 
@@ -19,39 +19,41 @@ The specifications provide:
 - validation and error semantics  
 - interoperability guarantees  
 
-Specifications do **not** describe implementations.  
-They define the **structures that all compliant implementations MUST support**.
+Specifications do not describe implementations.  
+They define the structures that all compliant implementations MUST support.
 
 ---
 
 ## Available Specifications
 
-The following specifications are published under this directory:
-
-### **TS Specification — Trust Stack**
+### TS Specification — Trust Stack
 Defines trust metadata, trust envelopes, trust‑state machines, attestation metadata, and provenance structures.
 
-### **LP Specification — Lattice Protocol**
+### LP Specification — Lattice Protocol
 Defines semantic packet formats, primitive encoding, semantic envelopes, boundary metadata, and semantic validity.
 
-### **LM Specification — Lattice Meta**
+### LM Specification — Lattice Meta
 Defines contextual metadata, contextual frames, alignment metadata, contextual envelopes, and meta‑semantic validity.
 
-### **LW Specification — Lattice Web**
+### LW Specification — Lattice Web
 Defines graph schemas, node and edge encoding, graph envelopes, graph‑level boundaries, and graph‑level validity.
 
-### **LIT Specification — Lattice Identity Token**
+### LIT Specification — Lattice Identity Token
 Defines identity token format, identity metadata, identity provenance, attestation metadata, revocation metadata, and identity validity.
 
 ---
 
 ## Governance
 
-All specifications are stewarded by the **SCU Foundation**, which maintains canonical versions, ensures interoperability, and governs long‑term evolution.
+All specifications are stewarded by the SCU Foundation, which maintains canonical versions, ensures interoperability, and governs long‑term evolution.
 
-Semantic, contextual, identity, and graph‑level research — along with standards‑adjacent proposals — are conducted by the **Lattice Research Institute (LRI)**.
+Semantic, contextual, identity, and graph‑level research — along with standards‑adjacent proposals — are conducted by the Lattice Research Institute (LRI).
 
-All changes MUST follow the SCU Foundation Change‑Management Charter (CMC) and Update‑Sequence Charter (USC).
+All changes MUST follow the SCU Foundation’s governed change‑management process.
+
+Canonical references:  
+- REPO: Repo‑Map — /REPO-MAP-vE1.2.md  
+- REPO: Governance — /GRM-vE1.1.json
 
 ---
 
@@ -59,23 +61,21 @@ All changes MUST follow the SCU Foundation Change‑Management Charter (CMC) and
 
 Each specification is published in its own subdirectory:
 
-```
-/specifications/
-  ts/
-  lp/
-  lm/
-  lw/
-  lit/
-```
+/specifications/  
+  ts/  
+  lp/  
+  lm/  
+  lw/  
+  lit/  
 
 Each subdirectory contains:
 
-- `<SPEC>-Spec-v1.0.md` — Full canonical specification  
-- `README.md` — Overview and canonical links  
-- `STATUS.md` — Status and version metadata  
-- `CHANGELOG.md` — Version history  
-- `VERSION` — Machine‑readable version file  
-- `LICENSE` — CC BY 4.0 license
+- <SPEC>-Spec-v1.0.md — full canonical specification  
+- README.md — overview and canonical links  
+- STATUS.md — status and version metadata  
+- CHANGELOG.md — version history  
+- VERSION — machine‑readable version file  
+- LICENSE — CC BY 4.0 license
 
 ---
 
@@ -83,14 +83,14 @@ Each subdirectory contains:
 
 Specifications MUST comply with:
 
-- **TS v1.0** — Trust, identity, safety, provenance  
-- **LP v1.0** — Semantic primitives and semantic validity  
-- **LM v1.0** — Meta‑semantic structures and contextual meaning  
-- **LW v1.0** — Graph structures and metadata  
-- **LIT v1.0** — Identity tokens and attestation primitives
+- TS v1.0 — trust, identity, safety, provenance  
+- LP v1.0 — semantic primitives and semantic validity  
+- LM v1.0 — meta‑semantic structures and contextual meaning  
+- LW v1.0 — graph structures and metadata  
+- LIT v1.0 — identity tokens and attestation primitives
 
 Specifications operationalise the standards but do not replace them.
 
 ---
 
-This directory forms the **technical backbone** of the Lattice ecosystem.
+This directory forms the technical backbone of the Lattice ecosystem.
