@@ -1,16 +1,14 @@
-# Trust Stack Specification (TS‑Spec) — Changelog
+# Lattice Web Specification (LW‑Spec) — Changelog
 
 ## v1.0 — Initial Draft Specification
-- first publication of the Trust Stack Specification  
-- defines identity metadata structures  
-- defines provenance metadata structures  
-- defines safety metadata structures  
-- defines trust envelopes  
-- defines trust‑state machine and transitions  
-- defines trust‑level metadata  
-- defines attestation metadata  
-- establishes TS‑Spec as the technical substrate for trust across the Lattice ecosystem  
-- aligned with TS v1.0  
+- first publication of the Lattice Web Specification  
+- defines canonical graph schemas  
+- defines node and edge encoding rules  
+- defines graph envelopes and graph‑level metadata  
+- defines graph‑boundary metadata and structural constraints  
+- defines graph‑level validation rules  
+- establishes LW‑Spec as the technical substrate for graph semantics across the Lattice ecosystem  
+- aligned with LW v1.0  
 - added canonical metadata and publication structure
 
 Canonical references:  
