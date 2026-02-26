@@ -23,3 +23,7 @@ https://latticeprotocol.org/specifications/lp/lp-spec-v1.0.pdf
 
 **GitHub Source:**  
 https://github.com/SCU-Foundation/specifications/tree/main/lp
+
+Canonical references:  
+- REPO: Repo‑Map — /REPO-MAP-vE1.2.md  
+- REPO: Governance — /GRM-vE1.1.json
