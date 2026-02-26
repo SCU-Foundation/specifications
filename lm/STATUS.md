@@ -23,3 +23,7 @@ https://latticeprotocol.org/specifications/lm/lm-spec-v1.0.pdf
 
 **GitHub Source:**  
 https://github.com/SCU-Foundation/specifications/tree/main/lm
+
+Canonical references:  
+- REPO: Repo‑Map — /REPO-MAP-vE1.2.md  
+- REPO: Governance — /GRM-vE1.1.json
